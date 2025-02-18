@@ -19,64 +19,63 @@
     </header>
 
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I'm Matilda.</p>
-        </section>
-
+        <section class="profile-container">
+            <div id="about">
+                <h2>About Me</h2>
+                <p>Hello! I'm Matilda and I'm learning HTML and CSS now.</p>
+                <p>I'm a beginner in tech areas and still learning</p>
+                <p>I want to upgrade my skills by joining vary of courses, projects, and communities</p>
+            </div>
+            <div id="profile-picture">
+                <img src="foto semi.jpg?height=400&width=300" alt="Profile picture" class="profile-img">
+            </div>
+        </section>        
+      
         <section id="skills">
             <h2>Skills</h2>
-            <div class="slider-container">
-                <button class="slider-button prev" aria-label="Previous skill">&lt;</button>
-                <div class="slider" id="skills-slider">
-                    <div class="slide">
-                        <h3>HTML</h3>
-                        <p>Level: Remed</p>
-                    </div>
-                    <div class="slide">
-                        <h3>CSS</h3>
-                        <p>Level: Remed</p>
-                    </div>
-                    <div class="slide">
-                        <h3>JavaScript</h3>
-                        <p>Level: Remed</p>
-                    </div>
-                    <div class="slide">
-                        <h3>Python</h3>
-                        <p>Level: KKM</p>
-                    </div>
-                    <div class="slide">
-                        <h3>Node.js</h3>
-                        <p>Level: Remed</p>
-                    </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>HTML</h3>
+                    <p>Level: Pemula</p>
                 </div>
-                <button class="slider-button next" aria-label="Next skill">&gt;</button>
+                <div class="card">
+                    <h3>CSS</h3>
+                    <p>Level: Pemula</p>
+                </div>
+                <div class="card">
+                    <h3>JavaScript</h3>
+                    <p>Level: Not yet</p>
+                </div>
+                <div class="card">
+                    <h3>Python</h3>
+                    <p>Level: Common</p>
+                </div>
+                <div class="card">
+                    <h3>Node.js</h3>
+                    <p>Level: Not yet</p>
+                </div>
             </div>
         </section>
 
         <section id="projects">
             <h2>Projects</h2>
-            <div class="slider-container">
-                <button class="slider-button prev" aria-label="Previous project">&lt;</button>
-                <div class="slider" id="projects-slider">
-                    <div class="slide">
-                        <h3>Personal Blog</h3>
-                        <p>Intinya blog</p>
-                    </div>
-                    <div class="slide">
-                        <h3>Ceritanya bisa</h3>
-                        <p>Apaapun itu</p>
-                    </div>
-                    <div class="slide">
-                        <h3>Itulah</h3>
-                        <p>Ceritanya app</p>
-                    </div>
-                    <div class="slide">
-                        <h3>Sesuatu lah</h3>
-                        <p>Ceritanya jalan</p>
-                    </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>Personal Blog</h3>
+                    <p>Profile blog with HTML and CSS</p>
                 </div>
-                <button class="slider-button next" aria-label="Next project">&gt;</button>
+                <div class="card">
+                    <h3>E-commerce Website</h3>
+                    <p>Not yet</p>
+                </div>
+                <div class="card">
+                    <h3>Weather App</h3>
+                    <p>Not yet</p>
+                </div>
+                <div class="card">
+                    <h3>Task Manager</h3>
+                    <p>Not yet</p>
+                </div>
             </div>
         </section>
     </main>
@@ -84,8 +83,6 @@
     <footer>
         <p>Contact me: 18223125</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
 
