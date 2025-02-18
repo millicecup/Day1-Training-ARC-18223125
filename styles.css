@@ -11,7 +11,7 @@
   }
   
   header {
-    background-color: #8b1b8f;
+    background-color: #ae6097;
     color: #fff;
     padding: 1rem;
     position: sticky;
@@ -112,7 +112,7 @@
   }
   
   .slider-button {
-    background-color: #8b1b8f;
+    background-color: #ae6097;
     color: white;
     border: none;
     border-radius: 50%;
@@ -127,11 +127,11 @@
   }
   
   .slider-button:hover {
-    background-color: #c781ca;
+    background-color: #da9ac4;
   }
   
   footer {
-    background-color: #8b1b8f;
+    background-color: #ae6097;
     color: #fff;
     text-align: center;
     padding: 1rem;
