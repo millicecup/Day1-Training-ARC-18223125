@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Matilda.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="slider-container">
+                <button class="slider-button prev" aria-label="Previous skill">&lt;</button>
+                <div class="slider" id="skills-slider">
+                    <div class="slide">
+                        <h3>HTML</h3>
+                        <p>Level: Remed</p>
+                    </div>
+                    <div class="slide">
+                        <h3>CSS</h3>
+                        <p>Level: Remed</p>
+                    </div>
+                    <div class="slide">
+                        <h3>JavaScript</h3>
+                        <p>Level: Remed</p>
+                    </div>
+                    <div class="slide">
+                        <h3>Python</h3>
+                        <p>Level: KKM</p>
+                    </div>
+                    <div class="slide">
+                        <h3>Node.js</h3>
+                        <p>Level: Remed</p>
+                    </div>
+                </div>
+                <button class="slider-button next" aria-label="Next skill">&gt;</button>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="slider-container">
+                <button class="slider-button prev" aria-label="Previous project">&lt;</button>
+                <div class="slider" id="projects-slider">
+                    <div class="slide">
+                        <h3>Personal Blog</h3>
+                        <p>Intinya blog</p>
+                    </div>
+                    <div class="slide">
+                        <h3>Ceritanya bisa</h3>
+                        <p>Apaapun itu</p>
+                    </div>
+                    <div class="slide">
+                        <h3>Itulah</h3>
+                        <p>Ceritanya app</p>
+                    </div>
+                    <div class="slide">
+                        <h3>Sesuatu lah</h3>
+                        <p>Ceritanya jalan</p>
+                    </div>
+                </div>
+                <button class="slider-button next" aria-label="Next project">&gt;</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact me: 18223125</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
